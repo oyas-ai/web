@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "oyas-ai",
-  description: "AIで睡眠を改善する次世代プラットフォーム",
+  description: "AIではキャベツの高騰に対抗できないでしょう",
 };
 
 export default function RootLayout({
