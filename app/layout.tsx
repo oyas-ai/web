@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "oyas-ai",
+  title: "oyas.ai",
   description: "AIではキャベツの高騰に対抗できないでしょう",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
