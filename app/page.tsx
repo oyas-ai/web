@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">
-      <section className="container flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center bg-black text-white">
+      <section className="container flex flex-col items-center justify-center min-h-[calc(100vh-80px)] text-center bg-black text-white fade-in">
         <h1 className="text-6xl font-bold mb-6">
           AIではキャベツの高騰に
           <br />
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="features" className="py-20 bg-black">
+      <section id="features" className="py-20 bg-black fade-in">
         <div className="container">
           <h2 className="text-4xl font-bold text-center mb-16 text-white">
             主な特徴
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="pricing" className="py-20 bg-black">
+      <section id="pricing" className="py-20 bg-black fade-in">
         <div className="container">
           <h2 className="text-4xl font-bold text-center mb-16 text-white">
             料金プラン
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="bg-gray-900 py-8 w-full">
+      <footer className="bg-gray-900 py-8 w-full fade-in">
         <div className="container flex flex-col md:flex-row items-center justify-between">
           <div className="text-gray-300 mb-4 md:mb-0 text-center md:ml-8">
             © {new Date().getFullYear()} oyas.ai All rights reserved.
